@@ -1,0 +1,50 @@
+.header {
+    color: var(--color-light);
+    font-size: 11px;
+    text-transform: uppercase;
+
+    &__inner {
+        position: absolute;
+        top: 25px;
+        right: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__navigation {
+        display: flex;
+        align-items: center;
+        column-gap: 90px;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        column-gap: 16px;
+    }
+
+    &__menu {
+        &-list {
+            display: flex;
+            column-gap: 24px;
+        }
+
+        &__link {
+            height: 25px;
+        }
+    }
+
+    &__search-form{
+        input {
+            width: 248px;
+            padding: 5px 10px 5px;
+            font-size: 11px;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 50px;
+            background-color: var(--color-dark-alt);
+        }
+    }
+}

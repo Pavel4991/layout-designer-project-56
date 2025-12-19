@@ -7,5 +7,86 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header__inner container">
+            <div class="header__navigation">
+                <a class="header__logo" href="#">
+                    <img
+                        class="logo__image"
+                        src="./images/icons/logo.svg"
+                        alt=""
+                        width="24" height="24" loading="lazy"
+                    >
+                    <span class="logo__text">Music Box</span>
+                </a>
+                <nav class="header__menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="#">Главная</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="#">Каталог</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="#">Исполнители</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <form class="header__search-form">
+                <label class="search-form__label visually-hidden" for="search">Search</label>
+                <input 
+                    class="search-form__input"
+                    id="search"
+                    name="search"
+                    placeholder="Поиск..."
+                    type="search"
+                    required
+                >
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section id="page-description" class="subscribe">
+            <div class="subscribe__inner container">
+                <h1 class="subscribe__title">Онлайн музыка где угодно</h1>
+                <h2 class="subscribe__subtitle">без ограничений</h2>
+                <span class="subscribe__description">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</span>
+                <form action="" class="subscribe__form">
+                    <div class="subscribe__field field">
+                            <label class="field__label visually-hidden" for="name">Name</label>
+                            <input 
+                                class="field__input"
+                                id="name"
+                                name="name"
+                                placeholder="Имя"
+                                type="text"
+                                required
+                            >
+                            <label class="field__label visually-hidden" for="email">Email</label>
+                            <input 
+                                class="field__input"
+                                id="email"
+                                name="email"
+                                placeholder="Email"
+                                type="email"
+                                required
+                            >
+                    </div>
+                    <button class="subscribe__button">Получить доступ</button>
+                </form>
+            </div>
+            
+            
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>

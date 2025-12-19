@@ -1,0 +1,57 @@
+.subscribe {
+    padding-block: 200px;
+    text-align: center;
+    color: var(--color-light);
+    background-image: url('../images/banner.png');
+    background-position: center;
+    background-size: cover;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__description {
+        display: inline-block;
+        margin-top: 31px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        max-width: 570px;
+    }
+
+    &__field {
+        display: flex;
+        column-gap: 24px;
+
+        input {
+            min-width: 270px;
+            min-height: 50px;
+            padding-left: 20px;
+            color: var(--color-light);
+            background-color: transparent;
+            border: 2px solid var(--color-gray-dark);
+            border-radius: 3px;
+            margin-block: 1.5rem;
+
+            &::placeholder {
+                font-size: 14px;
+                font-weight: 700;
+                color: var(--color-light);
+            }
+        }
+    }
+
+    &__button {
+        width: 100%;
+        padding: 21px;
+        text-transform: uppercase;
+        color: currentColor;
+        background-color: var(--color-green);
+        border: 0;
+    }
+}
