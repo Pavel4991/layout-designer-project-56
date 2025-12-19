@@ -233,12 +233,17 @@ svg * {
   --font-family-base: Roboto, sans-serif;
   --container-width: 1200px;
   --container-padding-x: 20px;
+  --container-padding-y: 100px;
+  --container-padding-y-alt: 200px;
 }
 
 .container {
   max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
   margin-inline: auto;
   padding-inline: var(--container-padding-x);
+}
+.container:not(:first-child) {
+  padding-top: var(--container-padding-y);
 }
 
 .visually-hidden {
@@ -281,6 +286,11 @@ h1, h2 {
   text-transform: uppercase;
 }
 
+h3, h4 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 h1 {
   font-size: clamp(1.875rem, 1.1184210526rem + 2.9239766082vw, 3.75rem);
 }
@@ -295,6 +305,18 @@ h3 {
 
 h4 {
   font-size: clamp(1.125rem, 0.8980263158rem + 0.8771929825vw, 1.6875rem);
+}
+
+.button {
+  width: 100%;
+  padding: 21px;
+  text-transform: uppercase;
+  color: currentColor;
+  border: 0;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: var(--color-orange);
 }
 
 .input {
@@ -452,15 +474,82 @@ h4 {
   }
 }
 .subscribe__button {
-  width: 100%;
-  padding: 21px;
-  text-transform: uppercase;
-  color: currentColor;
   background-color: var(--color-green);
-  border: 0;
 }
-.subscribe__button:hover {
-  background-color: var(--color-orange);
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-light);
+}
+.pricing__rates {
+  display: flex;
+  column-gap: 50px;
+  padding-top: 48px;
+  margin-bottom: 40px;
+}
+@media (max-width: 1023px) {
+  .pricing__rates {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+}
+.pricing__description {
+  text-align: center;
+}
+
+.rate-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 1.5rem 0;
+  border-radius: 1rem;
+}
+.rate-card:hover {
+  scale: 1.1;
+  transition-duration: 0.2s;
+}
+.rate-card__title {
+  padding-bottom: var(--container-padding-y-alt);
+}
+.rate-card__price {
+  display: flex;
+  justify-content: start;
+  column-gap: 16px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.rate-card__price-value {
+  font-size: 64px;
+  line-height: 1;
+}
+.rate-card__price-currency {
+  font-size: 32px;
+}
+.rate-card__button {
+  border: 1px solid var(--color-light);
+  background-color: transparent;
+}
+.rate-card__description {
+  margin-block: 64px;
+  font-size: 12.8px;
+  text-align: center;
+}
+.rate-card--free {
+  background-image: url("../images/subscribe_1.png");
+  background-position: center;
+  background-size: cover;
+}
+.rate-card--standart {
+  background-image: url("../images/subscribe_2.png");
+  background-position: center;
+  background-size: cover;
+}
+.rate-card--premium {
+  background-image: url("../images/subscribe_3.png");
+  background-position: center;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=styles.css.map */

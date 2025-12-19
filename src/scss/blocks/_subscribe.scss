@@ -37,15 +37,6 @@
     }
 
     &__button {
-        width: 100%;
-        padding: 21px;
-        text-transform: uppercase;
-        color: currentColor;
         background-color: var(--color-green);
-        border: 0;
-
-        &:hover {
-            background-color: var(--color-orange);
-        }
     }
 }

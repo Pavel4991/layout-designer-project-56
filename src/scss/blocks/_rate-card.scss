@@ -1,0 +1,64 @@
+@use '../media' as *;
+
+.rate-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 1.5rem 0;
+    border-radius: 1rem;
+
+    &:hover {
+        scale: 1.1;
+        transition-duration: 0.2s;
+    }
+
+    &__title {
+        padding-bottom: var(--container-padding-y-alt);
+    }
+
+    &__price {
+        display: flex;
+        justify-content: start;
+        column-gap: 16px;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+
+    &__price-value {
+        font-size: 64px;
+        line-height: 1;
+    }
+
+    &__price-currency {
+        font-size: 32px;
+    }
+
+    &__button {
+        border: 1px solid var(--color-light);
+        background-color: transparent;
+    }
+
+    &__description {
+        margin-block: 64px;
+        font-size: 12.8px;
+        text-align: center;
+    }
+
+    &--free {
+        background-image: url('../images/subscribe_1.png');
+        background-position: center;
+        background-size: cover;
+    }
+
+    &--standart {
+        background-image: url('../images/subscribe_2.png');
+        background-position: center;
+        background-size: cover;
+    }
+
+    &--premium {
+        background-image: url('../images/subscribe_3.png');
+        background-position: center;
+        background-size: cover;
+    }
+}

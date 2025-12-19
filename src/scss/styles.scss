@@ -6,6 +6,10 @@
 @use 'utils';
 @use 'general';
 
+
+@use 'blocks/button';
 @use 'blocks/input';
 @use 'blocks/header';
 @use 'blocks/subscribe';
+@use 'blocks/pricing';
+@use 'blocks/rate-card';
