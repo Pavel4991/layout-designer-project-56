@@ -1,0 +1,36 @@
+@use '../media' as *;
+
+.input {
+    min-width: 270px;
+    min-height: 50px;
+    padding-left: 20px;
+    color: var(--color-light);
+    background-color: transparent;
+    border: 2px solid var(--color-gray-dark);
+    border-radius: 3px;
+    margin-block: 1.5rem;
+
+    @include mobile {
+        width: 100%;
+
+        &:last-child {
+            margin-top: 0;
+        }
+    }
+
+    &::placeholder {
+        font-size: 14px;
+        font-weight: 700;
+        color: var(--color-light);
+    }
+
+    &:focus {
+        color: var(--color-dark);
+        background-color: var(--color-light);
+        outline: 2px solid var(--color-gray);
+
+        &::placeholder {
+            color: var(--color-gray-dark);
+        }
+    }
+}

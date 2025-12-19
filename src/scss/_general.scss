@@ -14,7 +14,7 @@ button,
 input,
 textarea,
 svg * {
-    transition-duration: var(--transition-duration);
+    transition-duration: 0.2s;
 }
 
 a {
@@ -28,17 +28,17 @@ h1, h2 {
 }
 
 h1 {
-    @include fluid-text(60, 43);
+    @include fluid-text(60, 30);
 }
 
 h2 {
-    @include fluid-text(40, 36);
+    @include fluid-text(38, 18);
 }
 
 h3 {
-    @include fluid-text(30, 26);
+    @include fluid-text(24, 16);
 }
 
 h4 {
-    @include fluid-text(20, 18);
+    @include fluid-text(27, 18);
 }

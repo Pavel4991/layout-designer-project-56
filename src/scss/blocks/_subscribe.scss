@@ -1,3 +1,5 @@
+@use '../media' as *;
+
 .subscribe {
     padding-block: 200px;
     text-align: center;
@@ -28,21 +30,9 @@
         display: flex;
         column-gap: 24px;
 
-        input {
-            min-width: 270px;
-            min-height: 50px;
-            padding-left: 20px;
-            color: var(--color-light);
-            background-color: transparent;
-            border: 2px solid var(--color-gray-dark);
-            border-radius: 3px;
-            margin-block: 1.5rem;
 
-            &::placeholder {
-                font-size: 14px;
-                font-weight: 700;
-                color: var(--color-light);
-            }
+        @include mobile {
+            display: inline-block;
         }
     }
 
@@ -53,5 +43,9 @@
         color: currentColor;
         background-color: var(--color-green);
         border: 0;
+
+        &:hover {
+            background-color: var(--color-orange);
+        }
     }
 }
