@@ -1,0 +1,55 @@
+@use '../media' as *;
+
+.news-card {
+    display: flex;
+    column-gap: 50px;
+
+    @include desktop {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    @include desktop-above {
+        &:nth-child(2) {
+            flex-direction: row-reverse;
+        }
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-block: 30px 48px;
+    }
+
+    &__author {
+        display: flex;
+        align-items: center;
+        column-gap: 16px;
+        font-size: 12px;
+
+        &-name {
+            text-transform: uppercase;
+            color: var(--color-orange);
+        }
+    }
+
+    &__link {
+        width: 137px;
+        padding: 16px 30px;
+        font-size: 12.8px;
+        border: 1px solid var(--color-gray-dark);
+
+        &:hover{
+            color: var(--color-dark);
+            border: 1px solid var(--color-gray-dark);
+            transform: scale(1.1);
+        }
+    }
+}

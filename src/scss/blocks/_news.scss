@@ -1,0 +1,15 @@
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__title {
+        margin-bottom: 48px;
+    }
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        row-gap: 65px;
+    }
+}
