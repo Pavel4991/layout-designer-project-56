@@ -9,4 +9,12 @@
     &:hover {
         background-color: var(--color-orange);
     }
+
+    &--play {
+        background-color: var(--color-purple);
+    }
+
+    &--to-favourite {
+        background-color: var(--color-red);
+    }
 }

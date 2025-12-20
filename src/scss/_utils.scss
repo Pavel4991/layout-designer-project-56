@@ -10,6 +10,10 @@
     }
 }
 
+.active {
+    font-weight: 700;
+}
+
 .visually-hidden {
     @include visually-hidden
 }
