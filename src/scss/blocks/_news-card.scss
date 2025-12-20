@@ -52,4 +52,8 @@
             transform: scale(1.1);
         }
     }
+
+    &:hover {
+        box-shadow: 10px 10px 5px rgba(97, 57, 1, 0.5); 
+    }
 }
