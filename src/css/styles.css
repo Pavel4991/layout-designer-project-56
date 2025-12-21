@@ -270,6 +270,7 @@ body {
   line-height: 1.5;
   color: var(--color-gray-dark);
   background-color: var(--color-dark);
+  margin-inline: auto;
 }
 
 a,
@@ -529,11 +530,12 @@ h4 {
 .subscribe__form {
   display: flex;
   flex-direction: column;
-  padding: 0;
+  width: 100%;
   max-width: 570px;
 }
 .subscribe__field {
   display: flex;
+  justify-content: space-between;
   column-gap: 24px;
 }
 @media (max-width: 767px) {
@@ -542,6 +544,7 @@ h4 {
   }
 }
 .subscribe__button {
+  font-size: 13.3px;
   background-color: var(--color-green);
 }
 
