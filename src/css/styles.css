@@ -234,7 +234,7 @@ svg * {
   --container-width: 1200px;
   --container-padding-x: 20px;
   --container-padding-y: 100px;
-  --container-padding-y-alt: 190px;
+  --container-padding-y-alt: 193px;
 }
 
 .container {
@@ -399,7 +399,7 @@ h4 {
   background-color: transparent;
   border: 2px solid var(--color-gray-dark);
   border-radius: 3px;
-  margin-block: 1.5rem;
+  margin-block: 1.4rem;
 }
 @media (max-width: 767px) {
   .input {
