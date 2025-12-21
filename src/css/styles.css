@@ -215,7 +215,7 @@ svg * {
 }
 @font-face {
   font-family: Roboto;
-  src: "../fonts/Roboto-Bold.woff2" format("woff2");
+  src: "../fonts/Roboto-Medium.woff2" format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -290,7 +290,7 @@ a {
 }
 
 h1, h2 {
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
   color: var(--color-light);
 }
@@ -430,11 +430,12 @@ h4 {
 }
 .header__inner {
   position: absolute;
-  top: 25px;
+  top: 28px;
   right: 0;
   left: 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 @media (max-width: 767px) {
   .header__inner {

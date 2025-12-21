@@ -7,12 +7,12 @@
 
     &__inner {
         position: absolute;
-        top: 25px;
+        top: 28px;
         right: 0;
         left: 0;
         display: flex;
         justify-content: space-between;
-        // align-items: start;
+        align-items: center;
 
         @include mobile {
             flex-direction: column;
