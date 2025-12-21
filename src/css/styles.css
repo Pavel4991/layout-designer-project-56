@@ -886,6 +886,7 @@ h4 {
 }
 .playlist-card__track-name {
   font-size: 12.8px;
+  font-weight: 700;
 }
 .playlist-card__track-duration {
   font-size: 12.8px;
@@ -912,7 +913,38 @@ h4 {
 }
 .album-card__name {
   font-size: 18px;
+  font-weight: 700;
   text-transform: none;
+}
+
+.similar-artists {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+  margin-bottom: var(--container-padding-y);
+}
+
+.artist-card:hover {
+  scale: 1.1;
+}
+.artist-card__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 18px;
+}
+.artist-card__promo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.artist-card__title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: none;
+}
+.artist-card__followers {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

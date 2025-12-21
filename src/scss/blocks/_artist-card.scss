@@ -1,21 +1,28 @@
-.album-card {
-    max-width: 250px;
-
+.artist-card {
     &:hover {
         scale: 1.1;
     }
 
     &__link {
-        padding: 0;
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: center;
         row-gap: 18px;
     }
 
-    &__name {
+    &__promo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
         font-size: 18px;
         font-weight: 700;
         text-transform: none;
+    }
+
+    &__followers {
+        text-align: center;
     }
 }
