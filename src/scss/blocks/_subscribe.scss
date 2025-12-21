@@ -1,13 +1,13 @@
 @use '../media' as *;
 
 .subscribe {
-    padding-block: var(--container-padding-y-alt);
+    padding-block: 198px var(--container-padding-y-alt);
     text-align: center;
     color: var(--color-light);
     background-image: url('../images/banner.png');
     background-position: center;
     background-size: cover;
-    
+
     &__inner {
         display: flex;
         flex-direction: column;
