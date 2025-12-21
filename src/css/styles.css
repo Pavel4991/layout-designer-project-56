@@ -234,7 +234,7 @@ svg * {
   --container-width: 1200px;
   --container-padding-x: 20px;
   --container-padding-y: 100px;
-  --container-padding-y-alt: 193px;
+  --container-padding-y-alt: 197px;
 }
 
 .container {
@@ -247,7 +247,7 @@ svg * {
 }
 
 .active {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .visually-hidden {
@@ -392,14 +392,14 @@ h4 {
 }
 
 .input {
-  min-width: 270px;
+  min-width: 274px;
   min-height: 50px;
   padding-left: 20px;
   color: var(--color-light);
   background-color: transparent;
   border: 2px solid var(--color-gray-dark);
   border-radius: 3px;
-  margin-block: 1.4rem;
+  margin-block: 1.3rem;
 }
 @media (max-width: 767px) {
   .input {

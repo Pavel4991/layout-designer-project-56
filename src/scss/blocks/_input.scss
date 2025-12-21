@@ -1,14 +1,14 @@
 @use '../media' as *;
 
 .input {
-    min-width: 270px;
+    min-width: 274px;
     min-height: 50px;
     padding-left: 20px;
     color: var(--color-light);
     background-color: transparent;
     border: 2px solid var(--color-gray-dark);
     border-radius: 3px;
-    margin-block: 1.4rem;
+    margin-block: 1.3rem;
 
     @include mobile {
         width: 100%;
