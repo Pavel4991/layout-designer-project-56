@@ -9,6 +9,10 @@ body {
     background-color: var(--color-dark);
 
     margin-inline: auto;
+
+    &::-webkit-scrollbar {
+    width: 0;
+    }
 }
 
 a,

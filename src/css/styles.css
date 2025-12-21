@@ -234,7 +234,7 @@ svg * {
   --container-width: 1200px;
   --container-padding-x: 20px;
   --container-padding-y: 100px;
-  --container-padding-y-alt: 200px;
+  --container-padding-y-alt: 195px;
 }
 
 .container {
@@ -271,6 +271,9 @@ body {
   color: var(--color-gray-dark);
   background-color: var(--color-dark);
   margin-inline: auto;
+}
+body::-webkit-scrollbar {
+  width: 0;
 }
 
 a,
@@ -432,7 +435,6 @@ h4 {
   left: 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 @media (max-width: 767px) {
   .header__inner {
@@ -511,7 +513,7 @@ h4 {
 }
 
 .subscribe {
-  padding-block: 200px;
+  padding-block: var(--container-padding-y-alt);
   text-align: center;
   color: var(--color-light);
   background-image: url("../images/banner.png");

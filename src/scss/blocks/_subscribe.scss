@@ -1,7 +1,7 @@
 @use '../media' as *;
 
 .subscribe {
-    padding-block: 200px;
+    padding-block: var(--container-padding-y-alt);
     text-align: center;
     color: var(--color-light);
     background-image: url('../images/banner.png');
