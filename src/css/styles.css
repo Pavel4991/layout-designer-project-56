@@ -317,6 +317,8 @@ h4 {
   --gridColumns: 1;
   display: grid;
   grid-template-columns: repeat(var(--gridColumns), 1fr);
+  column-gap: 50px;
+  row-gap: 25px;
 }
 .grid--2 {
   --gridColumns: 2;
@@ -354,6 +356,16 @@ h4 {
 @media (max-width: 1023px) {
   .grid--2 {
     --gridColumns: 1;
+  }
+}
+@media (max-width: 1023px) {
+  .grid--4 {
+    --gridColumns: 3;
+  }
+}
+@media (max-width: 767px) {
+  .grid--4 {
+    --gridColumns: 2;
   }
 }
 
@@ -835,15 +847,27 @@ h4 {
   flex-direction: column;
   row-gap: 48px;
 }
-.popular-tracks__playlist {
-  column-gap: 50px;
-  row-gap: 25px;
-}
 
 .playlist-card {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.playlist-card:hover::after {
+  width: 100%;
+}
+.playlist-card::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  translate: -50%;
+  width: 0;
+  height: 1px;
+  background-color: var(--color-dark-alt);
+  box-shadow: 0 -55px var(--color-dark-alt);
+  transition-duration: 0.3s;
 }
 @media (min-width: 768px) {
   .playlist-card {
@@ -865,6 +889,30 @@ h4 {
 }
 .playlist-card__track-duration {
   font-size: 12.8px;
+}
+
+.discography {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+}
+
+.album-card {
+  max-width: 250px;
+}
+.album-card:hover {
+  scale: 1.1;
+}
+.album-card__link {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 18px;
+}
+.album-card__name {
+  font-size: 18px;
+  text-transform: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

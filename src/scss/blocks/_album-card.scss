@@ -1,0 +1,20 @@
+.album-card {
+    max-width: 250px;
+
+    &:hover {
+        scale: 1.1;
+    }
+
+    &__link {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        row-gap: 18px;
+    }
+
+    &__name {
+        font-size: 18px;
+        text-transform: none;
+    }
+}

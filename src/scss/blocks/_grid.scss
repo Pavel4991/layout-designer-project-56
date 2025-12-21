@@ -5,6 +5,8 @@
 
     display: grid;
     grid-template-columns: repeat(var(--gridColumns), 1fr);
+    column-gap: 50px;
+    row-gap: 25px;
 
     @for $i from 2 through 12 {
         &--#{$i} {
@@ -15,6 +17,15 @@
     &--2 {
         @include tablet {
             --gridColumns: 1;
+        }
+    }
+
+     &--4 {
+        @include tablet {
+            --gridColumns: 3;
+        }
+        @include mobile {
+            --gridColumns: 2;
         }
     }
 }
