@@ -1,0 +1,31 @@
+@use '../media' as *;
+
+.playlist-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include mobile-above {
+        max-width: 600px;
+    }
+
+    &__promo {
+        display: flex;
+        align-items: center;
+        column-gap: 15px;
+        font-size: 12.8px;
+
+        &-text {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__track-name {
+        font-size: 12.8px;
+    }
+
+    &__track-duration {
+        font-size: 12.8px;
+    }
+}

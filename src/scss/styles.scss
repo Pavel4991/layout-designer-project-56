@@ -6,7 +6,7 @@
 @use 'utils';
 @use 'general';
 
-
+@use 'blocks/grid';
 @use 'blocks/button';
 @use 'blocks/input';
 @use 'blocks/header';
@@ -19,3 +19,5 @@
 @use 'blocks/footer';
 
 @use 'blocks/artist';
+@use 'blocks/popular-tracks';
+@use 'blocks/playlist-card';

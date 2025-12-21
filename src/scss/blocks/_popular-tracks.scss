@@ -1,0 +1,10 @@
+.popular-tracks {
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+
+    &__playlist {
+        column-gap: 50px;
+        row-gap: 25px;
+    }
+}
