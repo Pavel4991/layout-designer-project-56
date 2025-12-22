@@ -767,8 +767,8 @@ h4 {
   --gridColumns: 4;
   display: grid;
   grid-template-columns: repeat(var(--gridColumns), 1fr);
-  column-gap: 30px;
-  padding-block: 4rem 4.4rem;
+  column-gap: 36px;
+  padding-block: 3.8rem 4.6rem;
 }
 @media (max-width: 1023px) {
   .footer__inner {
@@ -810,13 +810,13 @@ h4 {
   color: var(--color-orange);
 }
 .footer-extra {
-  border-top: 1px solid var(--color-light);
+  border-top: 1px solid var(--color-gray-dark);
 }
 .footer-extra__inner {
   display: flex;
   align-items: center;
   column-gap: 16px;
-  padding-block: 2.8rem;
+  padding-block: 2.7rem;
 }
 @media (max-width: 767px) {
   .footer-extra__inner {
