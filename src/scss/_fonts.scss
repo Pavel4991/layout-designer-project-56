@@ -1,14 +1,14 @@
 @font-face {
-    font-family: 'Roboto condensed';
-    src: '../fonts/Roboto_Condensed-Bold.ttf' format('ttf');
+    font-family: 'Roboto sc';
+    src: url(../fonts/Roboto_SemiCondensed-Bold.ttf);
     font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: Roboto;
-    src: '../fonts/Roboto-Regular.woff2' format('woff2');
+    font-family: 'Roboto sc';
+    src: url(../fonts/Roboto_SemiCondensed-Regular.ttf);
     font-weight: 400;
     font-style: normal;
     font-display: swap;
