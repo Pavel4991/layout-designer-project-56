@@ -34,15 +34,15 @@
     }
 
     &__image {
-        @include tablet {
-            order: -1;
-        }
-
         &-container {
             display: flex;
             justify-content: center;
-            max-width: 590px;
+            max-width: 600px;
             width: 100%;
+
+             @include tablet {
+                order: -1;
+            }
         }
     }
 

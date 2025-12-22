@@ -732,16 +732,16 @@ h4 {
     max-width: 400px;
   }
 }
-@media (max-width: 1023px) {
-  .mobile-app__image {
-    order: -1;
-  }
-}
 .mobile-app__image-container {
   display: flex;
   justify-content: center;
-  max-width: 590px;
+  max-width: 600px;
   width: 100%;
+}
+@media (max-width: 1023px) {
+  .mobile-app__image-container {
+    order: -1;
+  }
 }
 .mobile-app__button {
   font-size: 12.8px;
