@@ -733,7 +733,7 @@ h4 {
   }
 }
 .mobile-app__image {
-  margin-right: 20px;
+  margin-left: 20px;
 }
 .mobile-app__image-container {
   display: flex;
