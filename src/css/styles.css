@@ -363,6 +363,11 @@ h4 {
   }
 }
 @media (max-width: 1023px) {
+  .grid--3 {
+    --gridColumns: 1;
+  }
+}
+@media (max-width: 1023px) {
   .grid--4 {
     --gridColumns: 3;
   }
@@ -558,8 +563,6 @@ h4 {
   color: var(--color-light);
 }
 .pricing__rates {
-  display: flex;
-  column-gap: 50px;
   padding-top: 48px;
   margin-bottom: 40px;
 }
