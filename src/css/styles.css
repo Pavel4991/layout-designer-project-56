@@ -234,7 +234,7 @@ svg * {
   --container-width: 1200px;
   --container-padding-x: 20px;
   --container-padding-y: 100px;
-  --container-padding-y-alt: 198px;
+  --container-padding-y-alt: 200px;
 }
 
 .container {
@@ -519,7 +519,7 @@ h4 {
 }
 
 .subscribe {
-  padding-block: 198px var(--container-padding-y-alt);
+  padding-block: 196px var(--container-padding-y-alt);
   text-align: center;
   color: var(--color-light);
   background-image: url("../images/banner.png");
@@ -588,7 +588,7 @@ h4 {
   transition-duration: 0.5s;
 }
 .rate-card__title {
-  padding-bottom: var(--container-padding-y-alt);
+  margin-bottom: var(--container-padding-y-alt);
 }
 .rate-card__price {
   display: flex;
