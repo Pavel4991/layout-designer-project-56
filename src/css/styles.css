@@ -636,6 +636,7 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 17px;
 }
 .news__title {
   margin-bottom: 48px;
