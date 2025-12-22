@@ -8,8 +8,8 @@
 
         display: grid;
         grid-template-columns: repeat(var(--gridColumns), 1fr);
-        column-gap: 10px;
-        padding-block: 3.8rem;
+        column-gap: 20px;
+        padding-block: 4.2rem;
 
         @include tablet {
             --gridColumns: 2;
