@@ -519,7 +519,7 @@ h4 {
 }
 
 .subscribe {
-  padding-block: 196px var(--container-padding-y-alt);
+  padding-block: var(--container-padding-y-alt);
   text-align: center;
   color: var(--color-light);
   background-image: url("../images/banner.png");
@@ -533,7 +533,7 @@ h4 {
 }
 .subscribe__description {
   display: inline-block;
-  margin-top: 31px;
+  margin-top: 27px;
 }
 .subscribe__form {
   display: flex;
