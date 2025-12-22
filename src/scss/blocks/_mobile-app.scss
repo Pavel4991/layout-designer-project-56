@@ -11,8 +11,6 @@
 
     &__inner {
         display: flex;
-        justify-content: space-between;
-        column-gap: 30px;
 
         @include tablet {
             flex-direction: column;
@@ -27,15 +25,13 @@
         align-items: start;
         row-gap: 16px;
         max-width: 600px;
+        width: 100%;
         padding-block: 16px;
 
         @include mobile {
             max-width: 400px;
         }
     }
-
-    // &__description {
-    // }
 
     &__image {
         @include tablet {

@@ -710,8 +710,6 @@ h4 {
 }
 .mobile-app__inner {
   display: flex;
-  justify-content: space-between;
-  column-gap: 30px;
 }
 @media (max-width: 1023px) {
   .mobile-app__inner {
@@ -726,6 +724,7 @@ h4 {
   align-items: start;
   row-gap: 16px;
   max-width: 600px;
+  width: 100%;
   padding-block: 16px;
 }
 @media (max-width: 767px) {
