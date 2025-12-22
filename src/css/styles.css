@@ -768,7 +768,7 @@ h4 {
   display: grid;
   grid-template-columns: repeat(var(--gridColumns), 1fr);
   column-gap: 40px;
-  padding-block: 3.7rem 4.6rem;
+  padding-block: 3.6rem 4.8rem;
 }
 @media (max-width: 1023px) {
   .footer__inner {
