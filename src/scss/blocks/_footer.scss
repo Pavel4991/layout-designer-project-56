@@ -8,8 +8,8 @@
 
         display: grid;
         grid-template-columns: repeat(var(--gridColumns), 1fr);
-        column-gap: 36px;
-        padding-block:3.8rem 4.6rem;
+        column-gap: 38px;
+        padding-block:3.7rem 4.6rem;
 
         @include tablet {
             --gridColumns: 2;
@@ -65,7 +65,7 @@
             display: flex;
             align-items: center;
             column-gap: 16px;
-            padding-block: 2.7rem;
+            padding-block: 2.6rem;
 
             @include mobile {
                 flex-direction: column;
