@@ -732,6 +732,9 @@ h4 {
     max-width: 400px;
   }
 }
+.mobile-app__image {
+  margin-right: 20px;
+}
 .mobile-app__image-container {
   display: flex;
   justify-content: center;
