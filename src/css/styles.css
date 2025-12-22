@@ -648,7 +648,7 @@ h4 {
 
 .news-card {
   display: flex;
-  column-gap: 50px;
+  column-gap: 48px;
 }
 @media (max-width: 1280px) {
   .news-card {
@@ -687,7 +687,7 @@ h4 {
 }
 .news-card__link {
   width: 137px;
-  padding: 17px 30px;
+  padding: 16px 30px;
   font-size: 12.8px;
   border: 1px solid var(--color-gray-dark);
 }
