@@ -1,7 +1,8 @@
 @use '../media' as *;
 
 .mobile-app {
-    padding-block: var(--container-padding-y);
+    padding-top: var(--container-padding-y);
+    margin-bottom: var(--container-padding-y);
 
     &__title {
         text-align: center;
@@ -36,6 +37,12 @@
     &__image {
         @include tablet {
             order: -1;
+        }
+
+        &-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
         }
     }
 
