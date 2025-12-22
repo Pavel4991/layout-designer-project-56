@@ -263,6 +263,10 @@ svg * {
   overflow: hidden;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 body {
   font-family: var(--font-family-base);
   font-size: 16px;
@@ -291,13 +295,11 @@ a {
 
 h1, h2 {
   font-family: "Roboto sc", sans-serif;
-  text-transform: uppercase;
   color: var(--color-light);
 }
 
 h3, h4 {
   font-weight: 400;
-  text-transform: uppercase;
   color: var(--color-light);
 }
 
@@ -659,6 +661,9 @@ h4 {
     flex-direction: row-reverse;
   }
 }
+.news-card__title {
+  text-transform: none;
+}
 .news-card__body {
   display: flex;
   flex-direction: column;
@@ -677,7 +682,6 @@ h4 {
   font-size: 12px;
 }
 .news-card__author-name {
-  text-transform: uppercase;
   color: var(--color-orange);
 }
 .news-card__link {

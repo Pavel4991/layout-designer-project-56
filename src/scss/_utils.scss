@@ -17,3 +17,7 @@
 .visually-hidden {
     @include visually-hidden
 }
+
+.uppercase {
+    text-transform: uppercase;
+}
