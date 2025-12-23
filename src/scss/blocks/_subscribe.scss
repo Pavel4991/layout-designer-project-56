@@ -9,7 +9,7 @@
     background-size: cover;
 
     @include mobile {
-        padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) - 6px);
+        padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) - 9px);
     }
 
     &__inner {
@@ -33,7 +33,9 @@
         width: 100%;
         max-width: 570px;
 
-
+        @include mobile {
+            row-gap: 2px;
+        }
     }
 
     &__field {
@@ -43,7 +45,8 @@
 
 
         @include mobile {
-            display: inline-block;
+            flex-direction: column;
+            row-gap: 2px;
         }
     }
 

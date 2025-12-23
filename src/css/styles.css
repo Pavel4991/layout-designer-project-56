@@ -411,7 +411,7 @@ h4 {
 @media (max-width: 767px) {
   .input {
     width: 100%;
-    margin-block: 1.35rem;
+    margin-block: 1.32rem;
   }
   .input:last-child {
     margin-top: 0;
@@ -531,7 +531,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .subscribe {
-    padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) - 6px);
+    padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) - 9px);
   }
 }
 .subscribe__inner {
@@ -554,6 +554,11 @@ h4 {
   width: 100%;
   max-width: 570px;
 }
+@media (max-width: 767px) {
+  .subscribe__form {
+    row-gap: 2px;
+  }
+}
 .subscribe__field {
   display: flex;
   justify-content: space-between;
@@ -561,7 +566,8 @@ h4 {
 }
 @media (max-width: 767px) {
   .subscribe__field {
-    display: inline-block;
+    flex-direction: column;
+    row-gap: 2px;
   }
 }
 .subscribe__button {
