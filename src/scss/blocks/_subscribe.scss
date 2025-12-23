@@ -9,7 +9,7 @@
     background-size: cover;
 
     @include mobile {
-        padding-block: calc(var(--container-padding-y-alt) + 44px) calc(var(--container-padding-y-alt) - 8px);
+        padding-block: calc(var(--container-padding-y-alt) + 46px) calc(var(--container-padding-y-alt) - 14px);
     }
 
     &__inner {
@@ -21,6 +21,10 @@
     &__description {
         display: inline-block;
         margin-top: 27px;
+
+        @include mobile {
+            margin-top: 15px;
+        }
     }
 
     &__form {
