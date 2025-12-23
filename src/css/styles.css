@@ -531,7 +531,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .subscribe {
-    padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) + 6px);
+    padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) + 2px);
   }
 }
 .subscribe__inner {
@@ -556,7 +556,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .subscribe__form {
-    row-gap: 5px;
+    row-gap: 7px;
   }
 }
 .subscribe__field {
@@ -567,7 +567,7 @@ h4 {
 @media (max-width: 767px) {
   .subscribe__field {
     flex-direction: column;
-    row-gap: 5px;
+    row-gap: 7px;
   }
 }
 .subscribe__button {
