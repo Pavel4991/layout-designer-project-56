@@ -6,6 +6,10 @@
     align-items: center;
     color: var(--color-light);
 
+    @include mobile {
+        margin-top: 2px;
+    }
+
     &__rates {
         padding-top: 48px;
         margin-bottom: 40px;
