@@ -854,6 +854,11 @@ h4 {
 .footer {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
+@media (max-width: 767px) {
+  .footer {
+    padding-bottom: 2px;
+  }
+}
 .footer__inner {
   --gridColumns: 4;
   display: grid;
