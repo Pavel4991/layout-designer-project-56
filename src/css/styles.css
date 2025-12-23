@@ -806,7 +806,7 @@ h4 {
 @media (max-width: 767px) {
   .mobile-app__body {
     max-width: 400px;
-    padding-block: 5px 1px;
+    padding-block: 6px 0;
   }
 }
 .mobile-app__image {
