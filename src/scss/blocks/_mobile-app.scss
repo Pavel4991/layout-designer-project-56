@@ -1,7 +1,7 @@
 @use '../media' as *;
 
 .mobile-app {
-    padding-top: var(--container-padding-y);
+    padding-top: calc(var(--container-padding-y) + 1px);
     margin-bottom: var(--container-padding-y);
     padding-bottom: 1px;
 
