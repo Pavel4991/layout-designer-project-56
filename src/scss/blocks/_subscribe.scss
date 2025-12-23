@@ -8,6 +8,10 @@
     background-position: center;
     background-size: cover;
 
+    @include mobile {
+        padding-block: calc(var(--container-padding-y-alt) + 36px) var(--container-padding-y-alt);
+    }
+
     &__inner {
         display: flex;
         flex-direction: column;
