@@ -693,7 +693,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .news {
-    margin-block: 17px;
+    margin-block: 17px 0;
   }
 }
 .news__title {
