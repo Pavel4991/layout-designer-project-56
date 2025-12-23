@@ -797,6 +797,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .mobile-app__title {
+    margin-left: 2px;
     margin-bottom: 46px;
   }
 }
