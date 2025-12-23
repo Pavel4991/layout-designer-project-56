@@ -9,7 +9,7 @@
     background-size: cover;
 
     @include mobile {
-        padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) - 8px);
+        padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) - 3px);
     }
 
     &__inner {
@@ -53,5 +53,9 @@
     &__button {
         font-size: 13.3px;
         background-color: var(--color-green);
+
+        @include mobile {
+            padding-block: 19px;
+        }
     }
 }
