@@ -626,6 +626,11 @@ h4 {
   text-transform: uppercase;
   margin-bottom: 40px;
 }
+@media (max-width: 767px) {
+  .rate-card__price {
+    margin-bottom: 39.5px;
+  }
+}
 .rate-card__price-value {
   font-size: 64px;
   line-height: 1;
@@ -667,11 +672,6 @@ h4 {
   background-image: url("../images/Premium Bg.png");
   background-position: center;
   background-size: cover;
-}
-@media (max-width: 767px) {
-  .rate-card--premium {
-    background-image: url("../images/subscribe_3.png");
-  }
 }
 
 .news {
