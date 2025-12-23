@@ -23,7 +23,7 @@
         margin-top: 27px;
 
         @include mobile {
-            margin-top: 18px;
+            margin-top: 16px;
         }
     }
 
@@ -32,6 +32,8 @@
         flex-direction: column;
         width: 100%;
         max-width: 570px;
+
+
     }
 
     &__field {
