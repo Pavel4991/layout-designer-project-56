@@ -9,7 +9,7 @@
     background-size: cover;
 
     @include mobile {
-        padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) + 8px);
+        padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) + 4px);
     }
 
     &__inner {
@@ -34,7 +34,7 @@
         max-width: 570px;
 
         @include mobile {
-            row-gap: 4px;
+            row-gap: 6px;
         }
     }
 
@@ -46,7 +46,7 @@
 
         @include mobile {
             flex-direction: column;
-            row-gap: 4px;
+            row-gap: 6px;
         }
     }
 
