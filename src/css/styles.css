@@ -786,7 +786,7 @@ h4 {
   .mobile-app__inner {
     flex-direction: column;
     align-items: center;
-    row-gap: 16px;
+    row-gap: 10px;
   }
 }
 .mobile-app__body {
@@ -805,6 +805,11 @@ h4 {
 }
 .mobile-app__image {
   margin-left: 20px;
+}
+@media (max-width: 767px) {
+  .mobile-app__image {
+    margin-left: 0;
+  }
 }
 .mobile-app__image-container {
   display: flex;
