@@ -729,6 +729,11 @@ h4 {
   justify-content: space-between;
   margin-block: 30px 48px;
 }
+@media (max-width: 767px) {
+  .news-card__description {
+    margin-top: 16px;
+  }
+}
 .news-card__author {
   display: flex;
   align-items: center;
