@@ -63,11 +63,19 @@
         background-image: url('../images/Standart Bg.png');
         background-position: center;
         background-size: cover;
+
+        @include mobile {
+            background-image: url('../images/subscribe_2.png');
+        }
     }
 
     &--premium {
         background-image: url('../images/Premium Bg.png');
         background-position: center;
         background-size: cover;
+
+        @include mobile {
+            background-image: url('../images/subscribe_3.png');
+        }
     }
 }
