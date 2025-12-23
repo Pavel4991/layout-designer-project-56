@@ -57,8 +57,10 @@
             }
 
             @include mobile {
-                font-size: 13px;
+                font-size: 12px;
+                line-height: 100%;
                 flex-direction: column;
+                row-gap: 3px;
             }
         }
 
