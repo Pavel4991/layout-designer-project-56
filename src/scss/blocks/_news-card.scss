@@ -43,6 +43,12 @@
                 margin-bottom: 24px;
             }
         }
+
+        .modified-text {
+            @include mobile {
+                margin-bottom: 16px;
+            }
+}
     }
 
     &__author {

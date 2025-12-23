@@ -749,6 +749,11 @@ h4 {
     margin-bottom: 24px;
   }
 }
+@media (max-width: 767px) {
+  .news-card__description .modified-text {
+    margin-bottom: 16px;
+  }
+}
 .news-card__author {
   display: flex;
   align-items: center;
