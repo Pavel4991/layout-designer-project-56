@@ -602,7 +602,7 @@ h4 {
 @media (max-width: 1023px) {
   .pricing__rates {
     flex-direction: column;
-    row-gap: 49.5px;
+    row-gap: 50px;
   }
 }
 .pricing__description {
