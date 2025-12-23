@@ -752,6 +752,11 @@ h4 {
   font-size: 12.8px;
   border: 1px solid var(--color-gray-dark);
 }
+@media (max-width: 767px) {
+  .news-card__link {
+    padding: 15px 28px;
+  }
+}
 .news-card__link:hover {
   color: var(--color-dark);
   border: 1px solid var(--color-gray-dark);

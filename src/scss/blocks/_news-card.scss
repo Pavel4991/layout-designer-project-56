@@ -62,6 +62,10 @@
         font-size: 12.8px;
         border: 1px solid var(--color-gray-dark);
 
+        @include mobile {
+            padding: 15px 28px;
+        }
+
         &:hover{
             color: var(--color-dark);
             border: 1px solid var(--color-gray-dark);
