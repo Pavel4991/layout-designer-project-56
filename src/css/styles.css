@@ -865,7 +865,7 @@ h4 {
 @media (max-width: 767px) {
   .footer__inner {
     --gridColumns: 1;
-    padding-block: 62px 68px;
+    padding-block: 62px 66px;
   }
 }
 .footer__title {
