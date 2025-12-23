@@ -754,7 +754,7 @@ h4 {
   display: flex;
   align-items: center;
   column-gap: 16px;
-  font-size: 12px;
+  font-size: 12.8px;
 }
 .news-card__author-name {
   color: var(--color-orange);
