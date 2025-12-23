@@ -34,7 +34,11 @@
 
         @include mobile {
             max-width: 400px;
-            padding-block: 6px 0;
+            padding-block: 6px 2px;
+
+            p {
+                margin-bottom: 17px;
+            }
         }
     }
 
