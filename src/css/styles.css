@@ -757,7 +757,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .news-card__link {
-    padding-inline: 29px;
+    padding-inline: 28px;
   }
 }
 .news-card__link:hover {
