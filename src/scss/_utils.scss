@@ -22,9 +22,3 @@
 .uppercase {
     text-transform: uppercase;
 }
-
-.modified-text {
-    @include mobile {
-        margin-bottom: 16px;
-    }
-}
