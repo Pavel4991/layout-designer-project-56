@@ -769,9 +769,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .news-card__link {
-    width: 136px;
-    padding-inline: 29px;
-    margin-top: 0.7px;
+    margin-top: 0.6px;
   }
 }
 .news-card__link:hover {
@@ -790,7 +788,8 @@ h4 {
 }
 @media (max-width: 767px) {
   .mobile-app {
-    margin-top: 2px;
+    padding-top: 98px;
+    padding-bottom: 3px;
   }
 }
 .mobile-app__title {

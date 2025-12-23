@@ -68,9 +68,7 @@
         border: 1px solid var(--color-gray-dark);
 
         @include mobile {
-            width: 136px;
-            padding-inline: 29px;
-            margin-top: 0.7px;
+            margin-top: 0.6px;
         }
 
         &:hover{
