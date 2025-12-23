@@ -411,7 +411,7 @@ h4 {
 @media (max-width: 767px) {
   .input {
     width: 100%;
-    margin-block: 1.25rem;
+    margin-block: 1.2rem;
   }
   .input:last-child {
     margin-top: 0;
@@ -531,7 +531,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .subscribe {
-    padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) - 1px);
+    padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) + 3px);
   }
 }
 .subscribe__inner {
@@ -576,7 +576,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .subscribe__button {
-    padding-block: 19px;
+    padding-block: 18px;
   }
 }
 
