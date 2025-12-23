@@ -787,6 +787,7 @@ h4 {
   padding-top: var(--container-padding-y);
   margin-bottom: var(--container-padding-y);
   padding-bottom: 1px;
+  margin-top: 1px;
 }
 .mobile-app__title {
   text-align: center;
@@ -794,8 +795,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .mobile-app__title {
-    margin-top: 1px;
-    margin-bottom: 47px;
+    margin-bottom: 46px;
   }
 }
 .mobile-app__inner {
