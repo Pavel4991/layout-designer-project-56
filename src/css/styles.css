@@ -596,13 +596,13 @@ h4 {
   }
 }
 .pricing__rates {
-  padding-top: 48px;
+  padding-top: 48.5px;
   margin-bottom: 40px;
 }
 @media (max-width: 1023px) {
   .pricing__rates {
     flex-direction: column;
-    row-gap: 50px;
+    row-gap: 49.5px;
   }
 }
 .pricing__description {
