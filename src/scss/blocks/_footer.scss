@@ -4,7 +4,7 @@
     background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 
     @include mobile {
-        margin-top: 2px;
+        margin-top: 4px;
         padding-bottom: 2px;
     }
 
@@ -23,7 +23,7 @@
 
         @include mobile {
             --gridColumns: 1;
-            padding-block: 61px 66px;
+            padding-block: 59px 66px;
         }
     }
     
