@@ -34,7 +34,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-block: 30px 48px;
+        margin-block: 30px 47px;
 
         @include mobile {
             margin-top: 16px;
@@ -57,6 +57,7 @@
 
         &-name {
             color: var(--color-orange);
+            font-weight: 500;
         }
     }
 
