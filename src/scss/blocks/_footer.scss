@@ -14,7 +14,7 @@
         display: grid;
         grid-template-columns: repeat(var(--gridColumns), 1fr);
         column-gap: 40px;
-        padding-block: 62px 74px;
+        padding-block: 62px 73px;
 
         @include tablet {
             --gridColumns: 2;
