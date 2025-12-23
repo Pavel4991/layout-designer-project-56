@@ -4,13 +4,13 @@
     padding-top: var(--container-padding-y);
     margin-bottom: var(--container-padding-y);
     padding-bottom: 1px;
-    margin-top: 1px;
 
     &__title {
         text-align: center;
         margin-bottom: 48px;
 
         @include mobile {
+            margin-top: 1px;
             margin-bottom: 46px;
         }
     }
