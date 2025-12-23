@@ -673,6 +673,11 @@ h4 {
   background-position: center;
   background-size: cover;
 }
+@media (max-width: 767px) {
+  .rate-card--premium {
+    background-image: url("../images/subscribe_3.png");
+  }
+}
 
 .news {
   display: flex;
