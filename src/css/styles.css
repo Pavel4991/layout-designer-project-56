@@ -788,6 +788,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .mobile-app {
+    margin-top: 1px;
     padding-top: 98px;
   }
 }
