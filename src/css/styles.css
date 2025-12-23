@@ -588,7 +588,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .pricing {
-    margin-top: 2px;
+    margin-top: 3px;
   }
 }
 .pricing__rates {
@@ -692,7 +692,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .news {
-    margin-top: 18px;
+    margin-top: 15px;
   }
 }
 .news__title {
