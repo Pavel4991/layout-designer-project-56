@@ -2,12 +2,12 @@
 
 .mobile-app {
     padding-top: var(--container-padding-y);
-    margin-bottom: var(--container-padding-y);
+    margin-bottom: calc(var(--container-padding-y) + 2px) ;
     padding-bottom: 1px;
 
     @include mobile {
+        
         padding-top: 97px;
-        margin-bottom: 2px;
     }
 
     &__title {

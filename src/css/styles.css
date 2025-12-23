@@ -783,13 +783,12 @@ h4 {
 
 .mobile-app {
   padding-top: var(--container-padding-y);
-  margin-bottom: var(--container-padding-y);
+  margin-bottom: calc(var(--container-padding-y) + 2px);
   padding-bottom: 1px;
 }
 @media (max-width: 767px) {
   .mobile-app {
     padding-top: 97px;
-    margin-bottom: 2px;
   }
 }
 .mobile-app__title {
