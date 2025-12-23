@@ -411,7 +411,7 @@ h4 {
 @media (max-width: 767px) {
   .input {
     width: 100%;
-    margin-block: 1.2rem;
+    margin-block: 1.15rem;
   }
   .input:last-child {
     margin-top: 0;
