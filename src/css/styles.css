@@ -648,6 +648,11 @@ h4 {
   background-position: center;
   background-size: cover;
 }
+@media (max-width: 767px) {
+  .rate-card--free {
+    background-image: url("../images/subscribe_1.png");
+  }
+}
 .rate-card--standart {
   background-image: url("../images/Standart Bg.png");
   background-position: center;
