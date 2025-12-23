@@ -411,7 +411,7 @@ h4 {
 @media (max-width: 767px) {
   .input {
     width: 100%;
-    margin-block: 1.15rem;
+    margin-block: 1.1rem;
   }
   .input:last-child {
     margin-top: 0;
@@ -531,7 +531,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .subscribe {
-    padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) + 5px);
+    padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) + 3px);
   }
 }
 .subscribe__inner {
@@ -556,7 +556,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .subscribe__form {
-    row-gap: 4px;
+    row-gap: 5px;
   }
 }
 .subscribe__field {
