@@ -411,7 +411,7 @@ h4 {
 @media (max-width: 767px) {
   .input {
     width: 100%;
-    margin-block: 1.32rem;
+    margin-block: 1.3rem;
   }
   .input:last-child {
     margin-top: 0;
@@ -531,7 +531,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .subscribe {
-    padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) - 9px);
+    padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) - 8px);
   }
 }
 .subscribe__inner {
