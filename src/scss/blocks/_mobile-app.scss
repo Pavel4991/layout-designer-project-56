@@ -23,7 +23,7 @@
         display: flex;
 
         @include tablet {
-            flex-direction: column;
+            flex-direction: column-reverse;
             align-items: center;
             row-gap: 10px;
         }
@@ -62,9 +62,9 @@
             max-width: 600px;
             width: 100%;
 
-             @include tablet {
-                order: -1;
-            }
+            //  @include tablet {
+            //     order: -1;
+            // }
         }
     }
 
