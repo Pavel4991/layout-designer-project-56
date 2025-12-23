@@ -6,7 +6,7 @@
     padding-bottom: 1px;
 
     @include mobile {
-        padding-top: 99px;
+        padding-top: 98px;
     }
 
     &__title {
@@ -14,7 +14,7 @@
         margin-bottom: 48px;
 
         @include mobile {
-            margin-left: 2px;
+            margin-left: 4px;
             margin-bottom: 46px;
         }
     }
