@@ -530,7 +530,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .subscribe {
-    padding-block: calc(var(--container-padding-y-alt) + 36px) var(--container-padding-y-alt);
+    padding-block: calc(var(--container-padding-y-alt) + 44px) calc(var(--container-padding-y-alt) - 8px);
   }
 }
 .subscribe__inner {
