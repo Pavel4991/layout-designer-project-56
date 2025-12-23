@@ -609,7 +609,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .rate-card {
-    padding-block: 20px 0;
+    padding-block: 15px 0;
   }
 }
 .rate-card:hover {
