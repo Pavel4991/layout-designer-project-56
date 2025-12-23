@@ -267,6 +267,12 @@ svg * {
   text-transform: uppercase;
 }
 
+@media (max-width: 767px) {
+  .modified-text {
+    margin-bottom: 16px;
+  }
+}
+
 body {
   font-family: var(--font-family-base);
   font-size: 16px;
@@ -684,6 +690,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   margin-top: 17px;
+  padding-bottom: 2px;
 }
 @media (max-width: 767px) {
   .news {
@@ -740,9 +747,6 @@ h4 {
   }
   .news-card__description p {
     margin-bottom: 24px;
-  }
-  .news-card__description .modified-text {
-    margin-bottom: 16px;
   }
 }
 .news-card__author {
@@ -870,7 +874,7 @@ h4 {
 @media (max-width: 767px) {
   .footer__inner {
     --gridColumns: 1;
-    padding-block: 64px 66px;
+    padding-block: 62px 66px;
   }
 }
 .footer__title {
