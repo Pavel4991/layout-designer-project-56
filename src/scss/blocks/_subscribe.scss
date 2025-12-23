@@ -9,7 +9,7 @@
     background-size: cover;
 
     @include mobile {
-        padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) - 3px);
+        padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) - 8px);
     }
 
     &__inner {
