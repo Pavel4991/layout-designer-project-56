@@ -9,7 +9,7 @@
     background-size: cover;
 
     @include mobile {
-        padding-block: calc(var(--container-padding-y-alt) + 46px) calc(var(--container-padding-y-alt) - 14px);
+        padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) - 3px);
     }
 
     &__inner {
@@ -23,7 +23,7 @@
         margin-top: 27px;
 
         @include mobile {
-            margin-top: 15px;
+            margin-top: 18px;
         }
     }
 
