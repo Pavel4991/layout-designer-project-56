@@ -859,7 +859,7 @@ h4 {
 @media (max-width: 1023px) {
   .footer__inner {
     --gridColumns: 2;
-    row-gap: 28px;
+    row-gap: 31px;
   }
 }
 @media (max-width: 767px) {
