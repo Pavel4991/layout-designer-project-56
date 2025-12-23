@@ -736,7 +736,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .news-card__description {
-    margin-block: 16px 47px;
+    margin-top: 16px;
   }
   .news-card__description p {
     margin-bottom: 24px;
