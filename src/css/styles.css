@@ -812,7 +812,7 @@ h4 {
   .mobile-app__inner {
     flex-direction: column;
     align-items: center;
-    row-gap: 10px;
+    row-gap: 9px;
   }
 }
 .mobile-app__body {
