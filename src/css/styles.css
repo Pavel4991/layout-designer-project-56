@@ -696,7 +696,7 @@ h4 {
 .news__inner {
   display: flex;
   flex-direction: column;
-  row-gap: 65px;
+  row-gap: 63px;
 }
 
 .news-card {
@@ -870,7 +870,7 @@ h4 {
 @media (max-width: 767px) {
   .footer__inner {
     --gridColumns: 1;
-    padding-block: 62px 67px;
+    padding-block: 64px 66px;
   }
 }
 .footer__title {
