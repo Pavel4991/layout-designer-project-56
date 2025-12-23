@@ -1,10 +1,14 @@
 @use '../media' as *;
 
 .mobile-app {
-    padding-top: calc(var(--container-padding-y) + 1px);
+    padding-top: var(--container-padding-y);
     margin-bottom: var(--container-padding-y);
     padding-bottom: 1px;
 
+    @include mobile {
+        padding-top: 101px;
+    }
+    
     &__title {
         text-align: center;
         margin-bottom: 48px;

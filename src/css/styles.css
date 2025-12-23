@@ -784,9 +784,14 @@ h4 {
 }
 
 .mobile-app {
-  padding-top: calc(var(--container-padding-y) + 1px);
+  padding-top: var(--container-padding-y);
   margin-bottom: var(--container-padding-y);
   padding-bottom: 1px;
+}
+@media (max-width: 767px) {
+  .mobile-app {
+    padding-top: 101px;
+  }
 }
 .mobile-app__title {
   text-align: center;
