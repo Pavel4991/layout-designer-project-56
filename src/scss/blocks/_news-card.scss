@@ -38,6 +38,10 @@
 
         @include mobile {
             margin-top: 16px;
+
+            p {
+                margin-bottom: 24px;
+            }
         }
     }
 
