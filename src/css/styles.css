@@ -744,7 +744,7 @@ h4 {
     margin-top: 16px;
   }
   .news-card__description p {
-    margin-bottom: 24px;
+    margin-bottom: 28px;
   }
 }
 .news-card__description .modified-text {
@@ -768,7 +768,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .news-card__link {
-    width: 134px;
+    width: 136px;
     padding-inline: 29px;
     margin-top: 0.7px;
   }
