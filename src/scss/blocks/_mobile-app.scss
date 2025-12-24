@@ -5,7 +5,7 @@
     margin-bottom: var(--container-padding-y);
 
     @include mobile {
-        margin-bottom: calc(var(--container-padding-y) - 2px);
+        margin-bottom: var(--container-padding-y);
     }
 
     &__title {
