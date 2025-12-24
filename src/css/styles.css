@@ -598,13 +598,13 @@ h4 {
   color: var(--color-light);
 }
 .pricing__rates {
-  padding-top: 48.5px;
+  padding-top: 47px;
   margin-bottom: 40px;
 }
 @media (max-width: 1023px) {
   .pricing__rates {
     flex-direction: column;
-    row-gap: 50.5px;
+    row-gap: 50px;
   }
 }
 .pricing__description {
@@ -815,12 +815,6 @@ h4 {
     align-items: center;
     row-gap: 10px;
   }
-}
-.mobile-app__title {
-  margin-left: 1px;
-}
-.mobile-app__subtitle {
-  margin-left: 1px;
 }
 .mobile-app__body {
   display: flex;

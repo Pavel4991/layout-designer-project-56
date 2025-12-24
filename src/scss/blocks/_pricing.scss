@@ -11,12 +11,12 @@
     }
 
     &__rates {
-        padding-top: 48.5px;
+        padding-top: 47px;
         margin-bottom: 40px;
 
         @include tablet {
             flex-direction: column;
-            row-gap: 50.5px;
+            row-gap: 50px;
         }
     }
 
