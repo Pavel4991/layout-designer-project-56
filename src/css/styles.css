@@ -543,6 +543,12 @@ h4 {
   flex-direction: column;
   align-items: center;
 }
+.subscribe__title {
+  margin-left: 1px;
+}
+.subscribe__title {
+  margin-left: 1px;
+}
 .subscribe__description {
   display: inline-block;
   margin-top: 27px;
@@ -813,6 +819,12 @@ h4 {
     align-items: center;
     row-gap: 10px;
   }
+}
+.mobile-app__title {
+  margin-left: 1px;
+}
+.mobile-app__subtitle {
+  margin-left: 1px;
 }
 .mobile-app__body {
   display: flex;
