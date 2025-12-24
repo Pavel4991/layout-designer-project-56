@@ -640,7 +640,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .rate-card__price {
-    margin-bottom: 39px;
+    margin-bottom: 38px;
   }
 }
 .rate-card__price-value {
