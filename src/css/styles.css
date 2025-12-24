@@ -791,9 +791,8 @@ h4 {
 }
 @media (max-width: 767px) {
   .mobile-app {
-    margin-top: 1px;
-    margin-bottom: calc(var(--container-padding-y) - 1px);
-    padding-top: 97px;
+    margin-bottom: calc(var(--container-padding-y) - 3px);
+    padding-top: 99px;
   }
 }
 .mobile-app__title {
