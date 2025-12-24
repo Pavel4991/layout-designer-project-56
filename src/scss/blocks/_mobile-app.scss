@@ -5,7 +5,7 @@
     margin-bottom: var(--container-padding-y);
 
     @include mobile {
-        margin-bottom: calc(var(--container-padding-y) - 3px);
+        margin-bottom: calc(var(--container-padding-y) - 2px);
     }
 
     &__title {
@@ -14,7 +14,7 @@
 
         @include mobile {
             margin-left: 4px;
-            margin-bottom: 48px;;
+            margin-bottom: 47px;
         }
     }
 

@@ -791,7 +791,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .mobile-app {
-    margin-bottom: calc(var(--container-padding-y) - 3px);
+    margin-bottom: calc(var(--container-padding-y) - 2px);
   }
 }
 .mobile-app__title {
@@ -801,7 +801,7 @@ h4 {
 @media (max-width: 767px) {
   .mobile-app__title {
     margin-left: 4px;
-    margin-bottom: 48px;
+    margin-bottom: 47px;
   }
 }
 .mobile-app__inner {
