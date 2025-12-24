@@ -39,7 +39,7 @@
 
         @include mobile {
             max-width: 400px;
-            padding-block: 7px 2px;
+            padding-block: 7px 4px;
             row-gap: 0;
 
             p {
@@ -75,6 +75,10 @@
         &:hover {
             color: var(--color-dark);
             background-color: var(--color-orange);
+        }
+
+        @include mobile {
+            padding-block: 15px;
         }
     }
 }

@@ -826,7 +826,7 @@ h4 {
 @media (max-width: 767px) {
   .mobile-app__body {
     max-width: 400px;
-    padding-block: 7px 2px;
+    padding-block: 7px 4px;
     row-gap: 0;
   }
   .mobile-app__body p {
@@ -859,6 +859,11 @@ h4 {
 .mobile-app__button:hover {
   color: var(--color-dark);
   background-color: var(--color-orange);
+}
+@media (max-width: 767px) {
+  .mobile-app__button {
+    padding-block: 15px;
+  }
 }
 
 .footer {
