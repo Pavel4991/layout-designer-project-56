@@ -587,6 +587,7 @@ h4 {
 @media (max-width: 767px) {
   .subscribe__button {
     margin-top: 1px;
+    padding-block: 18px;
   }
 }
 
