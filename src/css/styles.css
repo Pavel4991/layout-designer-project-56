@@ -638,11 +638,6 @@ h4 {
   text-transform: uppercase;
   margin-bottom: 40px;
 }
-@media (max-width: 767px) {
-  .rate-card__price {
-    margin-bottom: 38px;
-  }
-}
 .rate-card__price-value {
   font-size: 64px;
   line-height: 1;
