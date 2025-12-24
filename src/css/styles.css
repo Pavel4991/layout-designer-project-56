@@ -791,6 +791,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .mobile-app {
+    margin-top: 1px;
     margin-bottom: calc(var(--container-padding-y) - 1px);
     padding-top: 97px;
   }

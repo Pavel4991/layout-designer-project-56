@@ -5,6 +5,7 @@
     margin-bottom: var(--container-padding-y);
 
     @include mobile {
+        margin-top: 1px;
         margin-bottom: calc(var(--container-padding-y) - 1px);
         padding-top: 97px;
     }
