@@ -535,7 +535,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .subscribe {
-    padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) + 2px);
+    padding-block: calc(var(--container-padding-y-alt) + 48px) calc(var(--container-padding-y-alt) + 1px);
   }
 }
 .subscribe__inner {
@@ -586,6 +586,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .subscribe__button {
+    margin-top: 1px;
     padding-block: 18px;
   }
 }
