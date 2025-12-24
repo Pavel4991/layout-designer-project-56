@@ -826,7 +826,7 @@ h4 {
 @media (max-width: 767px) {
   .mobile-app__body {
     max-width: 400px;
-    padding-block: 7px 4px;
+    padding-block: 7px 0;
     row-gap: 0;
   }
   .mobile-app__body p {
@@ -862,7 +862,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .mobile-app__button {
-    padding-block: 15px;
+    padding-block: 17px;
   }
 }
 

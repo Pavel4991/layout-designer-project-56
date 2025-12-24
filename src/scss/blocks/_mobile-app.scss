@@ -39,7 +39,7 @@
 
         @include mobile {
             max-width: 400px;
-            padding-block: 7px 4px;
+            padding-block: 7px 0;
             row-gap: 0;
 
             p {
@@ -78,7 +78,7 @@
         }
 
         @include mobile {
-            padding-block: 15px;
+            padding-block: 17px;
         }
     }
 }
