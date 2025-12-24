@@ -8,7 +8,7 @@
     padding-bottom: 1px;
 
     @include mobile {
-        margin-block: 17px 0;
+        margin-block: 17px -2px;
     }
 
     &__title {

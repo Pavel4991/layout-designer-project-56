@@ -697,7 +697,7 @@ h4 {
 }
 @media (max-width: 767px) {
   .news {
-    margin-block: 17px 0;
+    margin-block: 17px -2px;
   }
 }
 .news__title {
@@ -802,7 +802,6 @@ h4 {
   .mobile-app__title {
     margin-left: 4px;
     margin-bottom: 47px;
-    margin-top: -2px;
   }
 }
 .mobile-app__inner {
