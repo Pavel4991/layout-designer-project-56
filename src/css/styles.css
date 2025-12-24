@@ -598,13 +598,14 @@ h4 {
   color: var(--color-light);
 }
 .pricing__rates {
-  padding-top: 47px;
+  padding-top: 48.5px;
   margin-bottom: 40px;
 }
 @media (max-width: 1023px) {
   .pricing__rates {
     flex-direction: column;
     row-gap: 50px;
+    padding-top: 47px;
   }
 }
 .pricing__description {
