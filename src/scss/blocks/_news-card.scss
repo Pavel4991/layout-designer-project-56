@@ -6,7 +6,7 @@
 
     @include desktop {
         flex-direction: column;
-        row-gap: 50px;
+        row-gap: 49.5px;
     }
 
     @include desktop-above {
@@ -38,6 +38,7 @@
 
         @include mobile {
             margin-top: 16px;
+            margin-bottom: 47.5px;
         }
 
         p {
