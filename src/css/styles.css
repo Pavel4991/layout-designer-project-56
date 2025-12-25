@@ -718,7 +718,7 @@ h4 {
 @media (max-width: 1280px) {
   .news-card {
     flex-direction: column;
-    row-gap: 52px;
+    row-gap: 50.5px;
   }
 }
 @media (min-width: 1281px) {
