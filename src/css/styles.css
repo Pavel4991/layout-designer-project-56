@@ -961,6 +961,11 @@ h4 {
   background-position: center;
   background-size: cover;
 }
+@media (max-width: 767px) {
+  .artist {
+    padding-top: 220px;
+  }
+}
 .artist__inner {
   display: flex;
   flex-direction: column;
