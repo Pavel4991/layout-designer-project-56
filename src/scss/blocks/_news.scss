@@ -20,8 +20,6 @@
         flex-direction: column;
         row-gap: 64.5px;
         
-        @include mobile {
-            row-gap: 65px;
-        }
+        @include mobile {}
     }
 }
