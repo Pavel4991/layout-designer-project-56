@@ -60,6 +60,13 @@
             justify-content: center;
             max-width: 600px;
             width: 100%;
+
+            @include mobile {
+                background-image: url('../images/iphone.png');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
         }
     }
 

@@ -850,6 +850,14 @@ h4 {
   max-width: 600px;
   width: 100%;
 }
+@media (max-width: 767px) {
+  .mobile-app__image-container {
+    background-image: url("../images/iphone.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
 .mobile-app__button {
   font-size: 12.8px;
   color: var(--color-light);
