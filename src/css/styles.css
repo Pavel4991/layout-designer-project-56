@@ -1021,7 +1021,7 @@ h4 {
 }
 @media (min-width: 768px) {
   .playlist-card {
-    max-width: 600px;
+    max-width: 560px;
   }
 }
 .playlist-card__promo {
