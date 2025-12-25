@@ -6,12 +6,6 @@
     align-items: center;
     justify-content: space-between;
 
-    &:hover {
-        &::after {
-            width: 100%;
-        }
-    }
-
     &::after {
         content: '';
         position: absolute;
@@ -23,6 +17,12 @@
         background-color: var(--color-dark-alt);
         box-shadow: 0 -55px var(--color-dark-alt);
         transition-duration: 0.3s;
+    }
+
+    &:hover {
+        &::after {
+            width: 100%;
+        }
     }
 
     @include mobile-above {

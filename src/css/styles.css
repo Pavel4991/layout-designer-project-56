@@ -710,6 +710,7 @@ h4 {
   flex-direction: column;
   row-gap: 64.5px;
 }
+
 .news-card {
   display: flex;
   column-gap: 50px;
@@ -782,9 +783,6 @@ h4 {
   color: var(--color-dark);
   border: 1px solid var(--color-gray-dark);
   transform: scale(1.1);
-}
-.news-card:hover {
-  box-shadow: 10px 10px 5px rgba(97, 57, 1, 0.5);
 }
 
 .mobile-app {
@@ -1011,9 +1009,6 @@ h4 {
   align-items: center;
   justify-content: space-between;
 }
-.playlist-card:hover::after {
-  width: 100%;
-}
 .playlist-card::after {
   content: "";
   position: absolute;
@@ -1025,6 +1020,9 @@ h4 {
   background-color: var(--color-dark-alt);
   box-shadow: 0 -55px var(--color-dark-alt);
   transition-duration: 0.3s;
+}
+.playlist-card:hover::after {
+  width: 100%;
 }
 @media (min-width: 768px) {
   .playlist-card {
