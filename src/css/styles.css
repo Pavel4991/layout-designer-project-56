@@ -320,63 +320,63 @@ h4 {
 }
 
 .grid {
-  --gridColumns: 1;
+  --grid-columns: 1;
   display: grid;
-  grid-template-columns: repeat(var(--gridColumns), 1fr);
+  grid-template-columns: repeat(var(--grid-columns), 1fr);
   column-gap: 50px;
   row-gap: 25px;
 }
 .grid--2 {
-  --gridColumns: 2;
+  --grid-columns: 2;
 }
 .grid--3 {
-  --gridColumns: 3;
+  --grid-columns: 3;
 }
 .grid--4 {
-  --gridColumns: 4;
+  --grid-columns: 4;
 }
 .grid--5 {
-  --gridColumns: 5;
+  --grid-columns: 5;
 }
 .grid--6 {
-  --gridColumns: 6;
+  --grid-columns: 6;
 }
 .grid--7 {
-  --gridColumns: 7;
+  --grid-columns: 7;
 }
 .grid--8 {
-  --gridColumns: 8;
+  --grid-columns: 8;
 }
 .grid--9 {
-  --gridColumns: 9;
+  --grid-columns: 9;
 }
 .grid--10 {
-  --gridColumns: 10;
+  --grid-columns: 10;
 }
 .grid--11 {
-  --gridColumns: 11;
+  --grid-columns: 11;
 }
 .grid--12 {
-  --gridColumns: 12;
+  --grid-columns: 12;
 }
 @media (max-width: 1023px) {
   .grid--2 {
-    --gridColumns: 1;
+    --grid-columns: 1;
   }
 }
 @media (max-width: 1023px) {
   .grid--3 {
-    --gridColumns: 1;
+    --grid-columns: 1;
   }
 }
 @media (max-width: 1023px) {
   .grid--4 {
-    --gridColumns: 3;
+    --grid-columns: 3;
   }
 }
 @media (max-width: 767px) {
   .grid--4 {
-    --gridColumns: 2;
+    --grid-columns: 2;
   }
 }
 
@@ -384,7 +384,7 @@ h4 {
   width: 100%;
   padding: 21px;
   text-transform: uppercase;
-  color: currentColor;
+  color: currentcolor;
   border: 0;
   border-radius: 5px;
 }
@@ -887,21 +887,21 @@ h4 {
   }
 }
 .footer__inner {
-  --gridColumns: 4;
+  --grid-columns: 4;
   display: grid;
-  grid-template-columns: repeat(var(--gridColumns), 1fr);
+  grid-template-columns: repeat(var(--grid-columns), 1fr);
   column-gap: 40px;
   padding-block: 62px 73px;
 }
 @media (max-width: 1023px) {
   .footer__inner {
-    --gridColumns: 2;
+    --grid-columns: 2;
     row-gap: 31px;
   }
 }
 @media (max-width: 767px) {
   .footer__inner {
-    --gridColumns: 1;
+    --grid-columns: 1;
     padding-block: 63px 66px;
   }
 }
@@ -994,7 +994,7 @@ h4 {
 .artist__button svg {
   width: 20px;
   height: 20px;
-  fill: currentColor;
+  fill: currentcolor;
 }
 
 .popular-tracks {
@@ -1054,8 +1054,7 @@ h4 {
 .discography {
   display: flex;
   flex-direction: column;
-  row-gap: 48px;
-  column-gap: 49px;
+  gap: 48px 49px;
   padding-right: 70px;
   padding-bottom: 1px;
   margin-top: -1px;
