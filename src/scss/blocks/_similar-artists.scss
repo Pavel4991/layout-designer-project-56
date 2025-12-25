@@ -1,9 +1,8 @@
 .similar-artists {
     display: flex;
     flex-direction: column;
-    row-gap: 48px;
+    gap: 48px 49px;
     margin-bottom: var(--container-padding-y);
-    column-gap: 49px;
     padding-right: 70px;
     padding-bottom: 1px;
     margin-top: -1px;

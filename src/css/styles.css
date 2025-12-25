@@ -323,8 +323,7 @@ h4 {
   --grid-columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--grid-columns), 1fr);
-  column-gap: 50px;
-  row-gap: 25px;
+  gap: 25px 50px;
 }
 .grid--2 {
   --grid-columns: 2;
@@ -504,7 +503,7 @@ h4 {
 }
 .header__search-form input {
   min-width: 248px;
-  padding: 5px 10px 5px;
+  padding: 5px 10px;
   font-size: 11px;
   color: var(--color-gray-dark);
   text-transform: uppercase;
@@ -1000,8 +999,7 @@ h4 {
 .popular-tracks {
   display: flex;
   flex-direction: column;
-  row-gap: 48px;
-  column-gap: 40px;
+  gap: 48px 40px;
   padding-right: 70px;
   padding-bottom: 1px;
   margin-top: -1px;
@@ -1082,9 +1080,8 @@ h4 {
 .similar-artists {
   display: flex;
   flex-direction: column;
-  row-gap: 48px;
+  gap: 48px 49px;
   margin-bottom: var(--container-padding-y);
-  column-gap: 49px;
   padding-right: 70px;
   padding-bottom: 1px;
   margin-top: -1px;
