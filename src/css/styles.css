@@ -998,6 +998,7 @@ h4 {
   row-gap: 48px;
   column-gap: 40px;
   padding-right: 70px;
+  padding-bottom: 1px;
 }
 
 .playlist-card {
