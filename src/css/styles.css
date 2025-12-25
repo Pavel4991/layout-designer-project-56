@@ -1080,6 +1080,7 @@ h4 {
   margin-bottom: var(--container-padding-y);
   column-gap: 49px;
   padding-right: 70px;
+  padding-bottom: 1px;
 }
 
 .artist-card:hover {
