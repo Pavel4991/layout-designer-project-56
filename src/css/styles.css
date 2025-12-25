@@ -955,7 +955,7 @@ h4 {
 }
 
 .artist {
-  padding-block: 200px;
+  padding-block: 248px 200px;
   color: var(--color-light);
   background-image: url("../images/Morten Harket.png");
   background-position: center;
